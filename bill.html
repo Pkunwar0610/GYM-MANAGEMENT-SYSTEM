@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gym Bill Management</title>
+</head>
+<body>
+  <link rel="stylesheet" href="bill.css">
+  
+
+  <div class="pricelist">
+   <h1>Bill Managing</h1>
+    
+    <table>
+      <tr>
+        <td>heavyworkoutclasses</td>
+        <td>workoutclasses</td>
+        <td>workoutfitnessclasses</td>
+        <td>duofitnessclasses</td>
+        <td>cardioclasses</td>
+      </tr>
+      <tr>
+        <td>Rs 2999</td>
+        <td>Rs 2999</td>
+        <td>Rs 2999</td>
+        <td>Rs 2999</td>
+        <td>Rs 2999</td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <form class="bill1">
+    <select id="sf">
+  <option selected value = "heavy workout">heavy workout</option>
+  <option value = "workout classes">workout classes</option>
+  <option value = "workout fitness classes">workout fitness classes</option>
+  <option value = "duo fitness classes">duo fitness classes</option>
+  <option value = "cardio classes">cardio classes</option>
+</select>
+    <input type="text" id="entrybox" pattern="\d*" placeholder="Input Amount">&nbsp;<b>Rs</b>&nbsp;&nbsp;
+    <input type="button" value="ADD T0 CART" class="mybutton" id="getme">
+  </form>
+  <br><br>
+  <textarea class="bill" cols="100" rows="12" id="writeme"></textarea>
+  <br>
+  <input type="submit" value="CLEAR TEXTAREA" class="mybutton bill3" id="clr">
+  <input type="submit" value="PAY BILL" class="mybutton bill2" id="out">
+  </body>
+
+</html>
+
+
+    <script src="bill.js"></script>
